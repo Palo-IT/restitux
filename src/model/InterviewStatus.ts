@@ -1,0 +1,3 @@
+export enum InterviewStatus {
+  TO_INVITE, WAITING, CONFIRMED, REFUSED, TO_TREAT, FINISHED
+}

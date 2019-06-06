@@ -1,0 +1,227 @@
+{
+  "login": {
+    "sign_in": "Sign in",
+    "subtitle": "User research interview, made simple",
+    "start": "Start a user research project"
+  },
+  "project": {
+    "new": {
+      "name": "What is your project's name?",
+      "description": "Describe your project",
+      "objectives": "Describe the objective(s) for your user research during your interviews",
+      "objectivesExplanation": "Ex: Find out what is the most popular choice of shoes when it's raining",
+      "placeholder": {
+        "name": "Project name",
+        "description": "Project description",
+        "objectives": "Write here"
+      },
+      "message": {
+        "success": "Project created successfully",
+        "fail": "Failed to create project"
+      },
+      "button": {
+        "retry": "Retry"
+      }
+    },
+    "single": {
+      "toast": {
+        "success": {
+          "objectiveDeleted": "Successfully deleted the objective",
+          "objectiveUpdated": "Successfully updated the objective"
+        },
+        "error": {
+          "objectiveDeleted": "Failed to delete the objective",
+          "objectiveUpdated": "Failed to update the objective"
+        }
+      },
+      "alert": {
+        "title": "Delete this objective?",
+        "messageHasQuestions": "Beware, this objective has questions! You will delete all linked questions too.",
+        "messageNoQuestions": "No questions are linked to this objective.",
+        "btn": {
+          "deleteConfirm": "Delete",
+          "cancel": "Cancel"
+        }
+      },
+      "objective": {
+        "name": "Objectif"
+      }
+    }
+  },
+  "tabs": {
+    "title": {
+      "objectives": "Objectives",
+      "preparation": "Preparation",
+      "interviews": "Interviews",
+      "analysis": "Analysis",
+      "interviewTag": "Interview tag preparation",
+      "questionCreator": "Question creator",
+      "participantsPanel": "Participants panel",
+      "upComingInterview": "Up coming interviews",
+      "finishedInterviews": "Finished interviews",
+      "rawData": "Raw data",
+      "selectedData": "Selected data"
+    }
+  },
+  "question": {
+    "creator": {
+      "title": "Research objectives",
+      "addObjective": "Add an objective",
+      "nextStep": "Next step",
+      "placeholder": {
+        "createQuestion": "Write a question based on this objective"
+      },
+      "toast": {
+        "success": {
+          "createdObjective": "Objective created successfully",
+          "createdQuestions": "Questions created successfully",
+          "removedQuestion": "Question was successfully deleted"
+        },
+        "error": {
+          "missingQuestion": "Please fill all the objectives with a question.",
+          "createdQuestions": "/!\\ Questions were not created!",
+          "removedQuestion": "Question failed to delete"
+        }
+      },
+      "alert": {
+        "title": "Delete this question?",
+        "messageLastQuestion": "This is the last question of the objective, so this will also delete the linked objective",
+        "messageNotLastQuestion": "No side effect apart from deleting the question.",
+        "button": {
+          "confirm": "Delete",
+          "cancel": "Cancel"
+        }
+      }
+    }
+  },
+  "analysis": {
+    "title": {
+      "main": "Analysis",
+      "scheduled": "Interviews to analyse",
+      "done": "Analysed interviews"
+    },
+    "text": {
+      "back": "Back",
+      "update": "Update field",
+      "loading": "No audio available. Please make an interview or wait for the end of uploading.",
+      "intro": "Introduction",
+      "questions": "Questions",
+      "no-data": "There is no transcription for this interview yet..."
+    },
+    "editor": {
+      "error-tag": "You cannot set tag between two paragraph",
+      "add": "Add tag",
+      "change-to": "Change to",
+      "delete-tag": "Delete tag",
+      "update-text": "Update answers"
+    },
+    "data": {
+      "view-questions": "View by questions",
+      "view-tags": "View by tags"
+    }
+  },
+  "interview": {
+    "title": "Interview",
+    "record": {
+      "introduction": "Introduction",
+      "questions": "Questions",
+      "startTimer": "Start",
+      "resumeTimer": "Resume",
+      "pauseTimer": "Pause",
+      "writeNotes": "Write notes here",
+      "finish": "Finish interview",
+      "tags": "Tags",
+      "upload": "Upload an interview"
+    }
+  },
+  "participants": {
+    "title": "Participants panel",
+    "button": {
+      "add": "Add participants"
+    },
+    "card": {
+      "level": "Level of expertise",
+      "job": "Job title",
+      "company": "company",
+      "contact": "Contact info",
+      "interview": {
+        "toInvite": "To invite",
+        "waiting": "Waiting",
+        "confirmed": "Confirmed",
+        "refused": "Refused",
+        "toTreat": "To treat",
+        "finished": "Finished"
+      },
+      "proto": "Proto personae typology",
+      "notes": "Side notes on the participant",
+      "button": {
+        "contact": "Contact",
+        "delete": "Delete participant",
+        "createInterview": "Create interview"
+      },
+      "schedule": "Schedule a rendezvous through email"
+    },
+    "message": {
+      "deleteSuccess": "Participant successfully deleted",
+      "deleteFail": "Participant failed to delete",
+      "updateSuccess": "Participant successfully updated",
+      "updateFail": "Participant failed to update",
+      "uploadPaused": "Your upload has paused",
+      "interviewCreated": "Interview successfully created",
+      "interviewFailed": "Fill all needed fields to create interview"
+    },
+    "modal": {
+      "title": "New participant creation",
+      "exit": "Exit",
+      "photo": "Attach photo",
+      "firstname": "First name",
+      "lastname": "Last name",
+      "job": "Job title",
+      "company": "Company",
+      "contact": "Contact info",
+      "email": "e-mail",
+      "phone": "Phone number",
+      "additional": "Additional information",
+      "level": "Level of expertise on the subject",
+      "city": "City of residence",
+      "schedule": "Schedule a rendezvous",
+      "defineRdv": "Define a preferred rendezvous time",
+      "sendEmail": "Send an email to check availabilities for the interview",
+      "advanced": "Advanced information",
+      "side": "Side notes on the participant",
+      "proto": "Proto personae typology",
+      "notesPlaceholder": "Type notes here",
+      "finished": "Finished",
+      "remove": {
+        "title": "Remove participant",
+        "message": "Do you want to remove this participant?",
+        "confirm": "Delete",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "interviewTag": {
+    "title": "Interview tag preparation"
+  },
+  "interviewFlow": {
+    "title": "The interview flow",
+    "addNotes": "Add an introduction to yourself for things you don't want to forget during the interview",
+    "toast": {
+      "success": {
+        "reorder": "Questions reordered successfully",
+        "notes": "Introduction successfully saved"
+      },
+      "error": {
+        "reorder": "Questions failed to reorder",
+        "notes": "Introduction failed to save"
+      }
+    },
+    "button": {
+      "reorder": "Reorder questions",
+      "done": "Done"
+    },
+    "notes": {
+      "title": "Introduction"
+    }
+  }
+}
